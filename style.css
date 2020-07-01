@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.first-banner {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-image: url(resources/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.essay-div {
+  padding-left: 12%;
+  padding-top: 15%;
+}
+
+.pic-div {
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.pic-div img {
+  width: 80%;
+}
+
+.essay-div img {
+  width: 70%;
+}
+
+p {
+  text-align: justify;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.link-button {
+}
+
+.txt {
+  font-weight: 400;
+}
+.name-color {
+  font-size: 30px;
+  font-weight: 900;
+  color: palevioletred;
+}
+
+.link-button {
+  text-decoration: none;
+  background-color: #ff4991;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.second-banner {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  background-image: url(resources/biography-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#se {
+  padding-top: 15%;
+}
+
+#sp {
+  padding-top: 5%;
+}
+
+.third-banner {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  padding: 2% 5%;
+  height: auto;
+  background-image: url(resources/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+.work-1 {
+  padding: 3%;
+}
+
+.work-1 img:hover {
+  z-index: 1;
+  box-shadow: 20px 20px 50px gray;
+}
+
+.work-1 img {
+  width: 100%;
+  height: auto;
+}
+
+.work-2 {
+  padding: 3%;
+}
+
+.work-2 img:hover {
+  z-index: 1;
+  box-shadow: 20px 20px 50px gray;
+}
+
+.work-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.work-3 {
+  padding: 3%;
+}
+
+.work-3 img:hover {
+  z-index: 1;
+  box-shadow: 20px 20px 50px gray;
+}
+
+.work-3 img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  padding: 5%;
+  font-weight: 900;
+}
+
+.fourth-banner {
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 2% 10%;
+  background-image: url(resources/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+.nn {
+  text-align: center;
+}
+
+.nn h6 {
+  font-weight: 400;
+}
+
+.ee {
+  text-align: center;
+
+  padding: 3% 20% 3% 20%;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.bb {
+  color: white;
+  text-align: center;
+  background-color: #ff4991;
+  width: 40%;
+  padding: 35px;
+  margin: 20px;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.bb a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.bb a:hover {
+  color: #110a0d;
+}
+footer p {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .first-banner {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 5%;
+    background-image: url(resources/header-bg.png);
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .essay-div {
+    padding-left: 0%;
+    padding-bottom: 5%;
+  }
+
+  .second-banner {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 5%;
+    background-image: url(resources/biography-bg.png);
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .third-banner {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 2% 5%;
+    height: auto;
+    background-image: url(resources/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+  }
+
+  .fourth-banner {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 2% 0%;
+    background-image: url(resources/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ee {
+    text-align: center;
+    padding: 3% 10% 3% 10%;
+  }
+
+  .bb {
+    color: white;
+    text-align: center;
+    background-color: #ff4991;
+    width: 60%;
+  }
+
+  .bb h5{
+    font-weight: 200;
+    font-size: 12px;
+  }
+
+  .bb a{
+      font-size: 16px;
+  }
+
+  #se {
+    padding-bottom: 5%;
+  }
+
+  
+  
+
+  
+}
+
+@media only screen and (max-width: 800px) {
+  .fourth-banner {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 2% 0%;
+    background-image: url(resources/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
