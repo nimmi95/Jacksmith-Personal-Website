@@ -8,7 +8,7 @@ body {
 .first-banner {
   display: grid;
   grid-template-columns: 50% 50%;
-  background-image: url(resources/header-bg.png);
+  background-image: url(../resources/header-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -62,7 +62,7 @@ p {
   display: grid;
   grid-template-columns: 50% 50%;
 
-  background-image: url(resources/biography-bg.png);
+  background-image: url(../resources/biography-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -80,7 +80,7 @@ p {
   grid-template-columns: 30% 30% 30%;
   padding: 2% 5%;
   height: auto;
-  background-image: url(resources/latest-work-bg.png);
+  background-image: url(../resources/latest-work-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -137,7 +137,7 @@ p {
   display: grid;
   grid-template-columns: 100%;
   padding: 2% 10%;
-  background-image: url(resources/footer-bg.png);
+  background-image: url(../resources/footer-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -190,7 +190,7 @@ footer p {
     display: grid;
     grid-template-columns: auto;
     padding: 5%;
-    background-image: url(resources/header-bg.png);
+    background-image: url(../resources/header-bg.png);
     background-repeat: repeat;
     background-size: cover;
   }
@@ -204,7 +204,7 @@ footer p {
     display: grid;
     grid-template-columns: auto;
     padding: 5%;
-    background-image: url(resources/biography-bg.png);
+    background-image: url(../resources/biography-bg.png);
     background-repeat: repeat;
     background-size: cover;
   }
@@ -214,7 +214,7 @@ footer p {
     grid-template-columns: 100%;
     padding: 2% 5%;
     height: auto;
-    background-image: url(resources/latest-work-bg.png);
+    background-image: url(../resources/latest-work-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -224,7 +224,7 @@ footer p {
     display: grid;
     grid-template-columns: 100%;
     padding: 2% 0%;
-    background-image: url(resources/footer-bg.png);
+    background-image: url(../resources/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -265,7 +265,7 @@ footer p {
     display: grid;
     grid-template-columns: 100%;
     padding: 2% 0%;
-    background-image: url(resources/footer-bg.png);
+    background-image: url(../resources/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
